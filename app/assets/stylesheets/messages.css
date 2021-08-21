@@ -1,0 +1,129 @@
+.wrapper{
+  display: flex;
+}
+.side_bar{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+.console{
+  height: 100px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.make_room a{
+  font-size: 10px;
+  color:deepskyblue;
+  text-decoration: none;
+}
+.rooms_name{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0px 20px;
+  overflow: scroll;
+}
+.room_box{
+  padding: 20px 0 40px;
+}
+
+.room_name a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_chat{
+  /* height: 100vh; */
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+.current_room{
+  height: 100px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  padding-top: 36px;
+  font-size: 24px;
+  color: #333;
+}
+.exit_btn{padding-top: 40px;}
+.exit_btn a{
+  padding:20px;
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+}
+.chat_content{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0px 40px;
+  overflow: scroll;
+}
+.comment_box{margin-bottom: 40px;}
+.high_line{
+  display: flex;
+  padding:10px 0px;
+}
+.username{
+  font-size: 16px;
+  color: #454A54;
+  padding-right: 10px;
+}
+.timestamp{
+  font-size: 12px;
+  color: #999;
+}
+.comment{
+  font-size: 14px;
+  color: #434A54;
+}
+
+.form{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+  display: flex;
+}
+.form_input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form_message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form_submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+.form_image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
