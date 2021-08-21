@@ -1,6 +1,6 @@
 <div class="console">
   <div class="name">
-    <a href="namarin">Name_Link</a>
+    <%= link_to current_user.name,edit_user_path(current_user) %>
   </div>
   <div class="make_room">
     <a href="kakkokari">チャットを作成する</a>
