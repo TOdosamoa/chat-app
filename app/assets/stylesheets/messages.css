@@ -9,13 +9,34 @@
 .console{
   height: 100px;
   padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.make_room a{
+  font-size: 10px;
+  color:deepskyblue;
+  text-decoration: none;
 }
 .rooms_name{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0px 20px;
+  overflow: scroll;
+}
+.room_box{
+  padding: 20px 0 40px;
 }
 
+.room_name a {
+  text-decoration: none;
+  color: white;
+}
 
 .main_chat{
   /* height: 100vh; */
